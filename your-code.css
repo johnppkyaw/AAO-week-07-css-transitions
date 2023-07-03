@@ -21,9 +21,13 @@
     width: auto;
     margin-left: 200px;
     /* Your code here */
+    transition: translate 2.5s;
 }
 
-/* Create astronaut hover animation here
+/* Create astronaut hover animation here */
+.astronaut_svg:hover {
+    translate: 100px 0;
+}
 
 /* ======= BONUS ======= */
 
@@ -31,9 +35,9 @@
     height: 200px;
     width: auto;
     margin-left: 300px;
-    /* Your animation here
+    /* Your animation here */
 }
 
 @keyframes spin {
-    /* Set up your keyframe animation here
+    /* Set up your keyframe animation here*/
 }
